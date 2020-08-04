@@ -4,7 +4,7 @@ name: Node.js CI
 
 on:
   schedule:
-    - cron:  '0 21 1 * *'
+    - cron:  '0 21 1,15 * *'
   watch:
     types: started
 
