@@ -29,7 +29,7 @@ const Password = process.env.PASSWORD;
     try {
         await page.waitFor("#idcs-signin-basic-signin-form-username", {timeout: 3000});
     } catch (e) {
-        await sleep(10*1000)
+        await sleep(30*1000)
     }
     console.log("输入用户名");
     await page.type("#idcs-signin-basic-signin-form-username", UserName);
